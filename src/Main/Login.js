@@ -44,7 +44,7 @@ const Login = () => {
     <div className='container login '>
       
     <form className='loginform mt-5 mx-auto text-center' onSubmit={handleLoginSubmit}>
-      <img className='mb-4'  src='../images/instagram.png' alt='instagram-logo'/>
+      <img className='mb-4'  src='/images/instagram.png' alt='instagram-logo'/>
     <div >
      
       <input className='  mb-2'

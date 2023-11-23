@@ -5,39 +5,57 @@
 
 .signupform {
   max-width: 400px;
-  margin-left: 450px;
+  margin: 0 auto;
   padding: 20px;
   border: 1px solid gray;
   border-radius: 5px;
 }
+
 .signupform > img {
-  width: 200px;
+  width: 100%;
+  max-width: 200px;
+  margin-bottom: 20px;
 }
 
 .signupform > input {
-  width: 90%;
+  width: 100%;
   padding: 10px;
-
+  margin-bottom: 15px;
   border: 1px solid #ccc;
   border-radius: 5px;
   font-size: 16px;
   outline: none;
 }
+
 .signupform button {
   padding: 8px;
-  width: 90%;
+  width: 100%;
 }
-.signupform > input:focus {
-  outline: 1px solid grey;
-}
+
 .linktopage {
   border: 1px solid gray;
   border-radius: 5px;
   max-width: 400px;
+  margin: 0 auto;
   padding: 10px;
-  margin-left: 450px;
+  margin-top: 20px;
 }
+
 .linktopage span {
   font-weight: 500;
   font-size: 15px;
+}
+
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 600px) {
+  .signupform {
+    margin: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .linktopage {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }

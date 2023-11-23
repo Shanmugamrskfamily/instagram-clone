@@ -111,7 +111,7 @@ const Signup = () => {
        <span>
         Have an account? 
         <button className='btn text-primary outline-none fw-bold ' >
-          <Link to='/login'>Login
+          <Link to='/'>Login
           </Link></button> 
        </span>
        </div>

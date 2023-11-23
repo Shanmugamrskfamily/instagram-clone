@@ -15,7 +15,7 @@ const Main = () => {
     <div className='main'>
         <div className="row gx-0">
             <div className="col-md-6  main-img d-flex align-items-start justify-content-center">
-                <img className='instaimage w-50 m-4' src='../images/logo192.png' alt='insta-image' />
+                <img className='instaimage w-50 m-4' src='/images/logo192.png' alt='insta-image' />
             </div>
             <div className="col-md-6  main-page ms-auto" >
                 
