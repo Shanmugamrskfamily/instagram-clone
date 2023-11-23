@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.profile-container {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.home-navigation {
+  position: fixed;
+  height: 100%;
+}
+
+.profile-content {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+}
+
+.profile-info {
+  margin-left: 1rem;
+}
+
+.profile-stats {
+  display: flex;
+  justify-content: space-around;
+}
+
+.stats-item {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .profile-content {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+}

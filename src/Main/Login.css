@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.loginform > img {
+  width: 200px;
+}
+
+form {
+  max-width: 400px;
+  padding: 20px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  background-color: #e8ebe4;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+}
+.login button {
+  padding: 8px;
+  width: 90%;
+}
+.login > input:focus {
+  outline: 1px solid grey;
+}
+.linktospage {
+  border: 1px solid gray;
+  border-radius: 5px;
+  max-width: 400px;
+  padding: 10px;
+}
+.linktospage span {
+  font-weight: 500;
+  font-size: 15px;
+}

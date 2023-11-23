@@ -1,0 +1,17 @@
+.main {
+  padding: 20px;
+}
+
+.main-img {
+  background-color: #f8f9fa;
+}
+
+.instaimage {
+  max-width: 100%;
+  height: auto;
+}
+
+.main-page {
+  background-color: #ffffff;
+  padding: 20px;
+}

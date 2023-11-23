@@ -1,0 +1,141 @@
+html {
+  scroll-snap-type: y mandatory;
+}
+
+.app {
+  margin-left: 43.6%;
+  margin-bottom: 2%;
+  margin-right: auto;
+  min-height: 100%;
+  width: 24.3%;
+  height: 100vh;
+  position: relative;
+}
+
+.d-flex {
+  gap: 20px;
+}
+
+.reel {
+  margin: 20px 0px;
+}
+
+.reelsSectionOProfile {
+  display: flex;
+
+  align-items: center;
+}
+
+.reelsSectionOProfile img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.reelsSectionOProfile h2 {
+  color: black;
+  font-size: 1rem;
+}
+
+.reelsSectionTwoAudioOwner img {
+  width: 25px;
+  height: 25px;
+  border-radius: 20%;
+}
+
+.reelsAudioTitle {
+  display: flex;
+}
+
+.reelsSectionTwo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: 100px;
+  margin-left: 10px;
+}
+
+.reelsSectionTwo > div {
+  margin: 10px 0px;
+}
+
+.reelsSectionTwo > div > p {
+  color: black;
+  font-size: 0.8rem;
+}
+
+.reelsSectionTwoLike {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reelsSectionTwoComments {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.reelsSectionTwoForward {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reelsSectionTwoBookmark {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reelsCaption {
+  margin: 15px 0px;
+}
+
+.reelsCaption p {
+  color: black;
+  font-size: 0.9rem;
+}
+
+.reelsSectionOProfile p {
+  margin: 0px 10px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.reelsSectionOneHeader {
+  margin: 15px;
+}
+
+.reelsAudioTitle p {
+  color: white;
+  font-size: 0.8rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .app {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .col {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .app {
+    margin-left: 4rem;
+    width: 100%;
+  }
+
+  .reel {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .reelsSectionTwo {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+}
